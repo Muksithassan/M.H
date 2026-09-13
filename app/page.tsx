@@ -315,44 +315,90 @@ export default function Home() {
               {/* Experience Timeline Grid */}
               <div className="experience-timeline">
 
-                {/* Milestone 1: Upwork / Direct Clients */}
+                {/* Milestone 1: Flesta Pro Remote */}
                 <div className="exp-card">
                   <div className="exp-header">
-                    <h3 className="exp-role">Full Stack Web &amp; Mobile App Developer</h3>
-                    <span className="exp-period">2023 — Present</span>
+                    <h3 className="exp-role">Middle Full-Stack &amp; AI Engineer</h3>
+                    <span className="exp-period">Jul 2024 — Present · 2 yrs 3 mos</span>
                   </div>
-                  <div className="exp-company">Upwork / Direct Clients</div>
+                  <div className="exp-company">Flesta Pro Remote · Full-time</div>
+                  <div className="exp-location">United States · Remote</div>
                   <ul className="exp-bullets">
                     <li className="exp-bullet">
-                      Engineered and deployed custom MERN stack web applications, Next.js portals, and React Native mobile apps for Upwork and direct global clients.
+                      Developed and deployed fault-tolerant backend services using NestJS and TypeScript, integrating AI modules and automated AI agents to optimize business processes.
                     </li>
                     <li className="exp-bullet">
-                      Architected and launched production-ready SaaS systems, dynamic client dashboards, and real-time scheduling platforms.
+                      Designed scalable logic using cloud-native and serverless architectures (Cloud Code), significantly reducing infrastructure overhead and accelerating real-time data processing.
                     </li>
                     <li className="exp-bullet">
-                      Implemented scalable backend architectures, RESTful APIs, and databases using Supabase, Firebase, and MongoDB.
-                    </li>
-                    <li className="exp-bullet">
-                      Managed end-to-end project lifecycles on an independent contract basis, including direct client communication, requirement gathering, and delivery.
+                      Optimized data structures and complex PostgreSQL queries to ensure high system performance under heavy operational loads.
                     </li>
                   </ul>
                   <div className="exp-badges">
-                    <span className="exp-badge">MERN Stack</span>
-                    <span className="exp-badge">Next.js</span>
-                    <span className="exp-badge">React Native</span>
-                    <span className="exp-badge">n8n</span>
-                    <span className="exp-badge">Supabase / Firebase</span>
-                    <span className="exp-badge">MongoDB</span>
+                    <span className="exp-badge">Full-Stack Development</span>
+                    <span className="exp-badge">Machine Learning</span>
+                    <span className="exp-badge">NestJS</span>
+                    <span className="exp-badge">TypeScript</span>
+                    <span className="exp-badge">PostgreSQL</span>
+                    <span className="exp-badge">AI Agents</span>
                   </div>
                 </div>
 
-                {/* Milestone 2: Flesta Pro */}
+                {/* Milestone 2: Freelance / Contract */}
+                <div className="exp-card">
+                  <div className="exp-header">
+                    <h3 className="exp-role">Full-Stack &amp; Mobile app Dev</h3>
+                    <span className="exp-period">Jan 2024 — Jun 2024 · 6 mos</span>
+                  </div>
+                  <div className="exp-company">Freelance / Contract / Self-Employed · Contract</div>
+                  <div className="exp-location">United States · Remote</div>
+                  <ul className="exp-bullets">
+                    <li className="exp-bullet">
+                      Architected a SaaS platform for online booking and business management automation (NinjaOnWheel project).
+                    </li>
+                    <li className="exp-bullet">
+                      Deployed cloud backend services and designed a PostgreSQL schema on Supabase, implementing secure authentication and real-time transaction conflict resolution.
+                    </li>
+                  </ul>
+                  <div className="exp-badges">
+                    <span className="exp-badge">Agentic AI</span>
+                    <span className="exp-badge">Full-Stack Development</span>
+                    <span className="exp-badge">React Native</span>
+                    <span className="exp-badge">Supabase</span>
+                    <span className="exp-badge">PostgreSQL</span>
+                  </div>
+                </div>
+
+                {/* Milestone 3: Saylani Mass IT Training (SMIT) */}
+                <div className="exp-card">
+                  <div className="exp-header">
+                    <h3 className="exp-role">MERN Stack Developer Intern</h3>
+                    <span className="exp-period">Jul 2023 — Dec 2023 · 6 mos</span>
+                  </div>
+                  <div className="exp-company">Saylani Mass IT Training (SMIT) · Internship</div>
+                  <div className="exp-location">Karachi Division, Sindh, Pakistan · On-site</div>
+                  <ul className="exp-bullets">
+                    <li className="exp-bullet">
+                      Completed an intensive internship focused on building modern web interfaces and backend services.
+                    </li>
+                  </ul>
+                  <div className="exp-badges">
+                    <span className="exp-badge">Back-End Web Development</span>
+                    <span className="exp-badge">TypeScript</span>
+                    <span className="exp-badge">MERN Stack</span>
+                    <span className="exp-badge">React.js</span>
+                    <span className="exp-badge">Node.js</span>
+                  </div>
+                </div>
+
+                {/* Milestone 4: tanoli transport */}
                 <div className="exp-card">
                   <div className="exp-header">
                     <h3 className="exp-role">US Freight Broker, Dispatcher &amp; Technical Support Specialist</h3>
-                    <span className="exp-period">2021 — 2023</span>
+                    <span className="exp-period">Jan 2021 — Dec 2022 · 2 yrs</span>
                   </div>
-                  <div className="exp-company">Flesta Pro (US Logistics &amp; Operations)</div>
+                  <div className="exp-company">tanoli transport (US Logistics &amp; Operations)</div>
+                  <div className="exp-location">United States · Remote</div>
                   <ul className="exp-bullets">
                     <li className="exp-bullet">
                       Managed dual-role operations as both a US Freight Broker and Load Dispatcher, handling freight negotiations, load matching, and carrier coordination.
@@ -365,9 +411,8 @@ export default function Home() {
                     </li>
                   </ul>
                   <div className="exp-badges">
-                    <span className="exp-badge">US Logistics</span>
-                    <span className="exp-badge">Freight Dispatching</span>
-                    <span className="exp-badge">Carrier Coordination</span>
+                    <span className="exp-badge">US Freight Brokerage</span>
+                    <span className="exp-badge">Dispatching</span>
                     <span className="exp-badge">Technical Support</span>
                     <span className="exp-badge">Client Operations</span>
                   </div>

@@ -571,7 +571,7 @@ nav {
   }
 
   .story-section#experience {
-    min-height: 125svh;
+    min-height: 155svh;
   }
 
   .story-section#work {
@@ -647,6 +647,14 @@ h2 {
   z-index: 2;
 }
 
+.exp-card:nth-child(3) {
+  z-index: 3;
+}
+
+.exp-card:nth-child(4) {
+  z-index: 4;
+}
+
 .exp-header {
   display: flex;
   justify-content: space-between;
@@ -675,9 +683,16 @@ h2 {
 }
 
 .exp-company {
-  font-size: 0.86rem;
+  font-size: 0.88rem;
+  color: #e2e8f0;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.exp-location {
+  font-size: 0.8rem;
   color: var(--muted);
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .exp-desc {
@@ -1202,6 +1217,14 @@ button:focus-visible {
 
   .exp-card:nth-child(2) {
     z-index: 2 !important;
+  }
+
+  .exp-card:nth-child(3) {
+    z-index: 3 !important;
+  }
+
+  .exp-card:nth-child(4) {
+    z-index: 4 !important;
   }
 
   .portfolio-deck {
