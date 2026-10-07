@@ -27,7 +27,7 @@ export default function Home() {
   useEffect(() => {
     // Sequential typewriter: Name types first, then Tagline starts
     const fullName = 'Muqsit Hassan';
-    const fullTagline = 'Full Stack Web & Mobile App Developer | AI & Automation Specialist';
+    const fullTagline = 'Full Stack Web & Mobile App Developer | REACT & NEXT.JS | AI & Automation Specialist';
     let nameIdx = 0;
     let taglineIdx = 0;
     let nameTimer: ReturnType<typeof setInterval>;
@@ -296,7 +296,7 @@ export default function Home() {
               <div className="kicker">About Me</div>
               <h2>Engineering Scalable Apps &amp; Intelligent Workflows</h2>
               <p className="lede">
-                Full Stack Software Engineer (MERN &amp; React Native) with over 3+ years of experience delivering scalable web apps, mobile solutions, and automated workflows. Proven background in international logistics, US freight dispatching, and client operations, combining technical skill with strong business communication.
+                Full Stack Software Engineer (MERN &amp; React|NEXT JS React Native) with over 3+ years of experience delivering scalable web apps, mobile solutions, and automated workflows. Proven background in international logistics, US freight dispatching, and client operations, combining technical skill with strong business communication.
               </p>
             </section>
 
