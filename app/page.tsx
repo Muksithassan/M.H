@@ -220,7 +220,7 @@ export default function Home() {
                 {typedName}
                 {!nameDone && <span className="typewriter-cursor">|</span>}
               </h1>
-              <p className="role-tag">Full Stack Developer &amp; AI Specialist</p>
+              <p className="role-tag">FULL STACK DEVELOPER | REACT & NEXT.JS | &amp; AI Specialist</p>
             </div>
           </div>
 
@@ -296,7 +296,7 @@ export default function Home() {
               <div className="kicker">About Me</div>
               <h2>Engineering Scalable Apps &amp; Intelligent Workflows</h2>
               <p className="lede">
-                Full Stack Software Engineer (MERN &amp; React|NEXT JS React Native) with over 3+ years of experience delivering scalable web apps, mobile solutions, and automated workflows. Proven background in international logistics, US freight dispatching, and client operations, combining technical skill with strong business communication.
+                Full Stack Software Engineer (MERN &amp; React|NEXT JS React Native) with 3+ years of experience delivering scalable web apps, mobile solutions, and automated workflows. Proven background in international logistics, US freight dispatching, and client operations, combining technical skill with strong business communication.
               </p>
             </section>
 
