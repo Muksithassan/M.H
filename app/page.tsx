@@ -646,7 +646,7 @@ export default function Home() {
                 <div className="contact-detail">
                   Phone
                   <span>
-                    <a href="tel:+92303404564">+92 303 404564</a>
+                    <a href="tel:+923034044564">+92 303 4044564</a>
                   </span>
                 </div>
               </div>
